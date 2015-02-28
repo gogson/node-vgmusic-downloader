@@ -13,8 +13,8 @@ Configuration
 
 You can edit the `config.js` file in order to configure the script:
 
-* `downloadFolder` is the download path folder
-* `pages` is an array containing the list of pages that will be crawled
+* `downloadFolder` is the download path folder (default: `./download`)
+* `pages` is an array containing the list of pages that will be crawled (default: all pages)
 
 How to use
 ----------
@@ -23,4 +23,13 @@ You must have Node.js installed on your computer.
 
 1. Git clone, or download zip file
 2. Install dependancies using `npm install`
+3. Edit the configuration file `config.js` if needed
 3. Run the app with `node vgmusic.js` !
+
+How to monitor crawling ?
+-------------------------
+
+Two nice commands to see what's going on when the script is running : 
+
+* `du -sh ./download` displays the total size of what you crawled
+* `find ./download -name "*.mid" | wc -l` count the number of MIDI files you downloaded
