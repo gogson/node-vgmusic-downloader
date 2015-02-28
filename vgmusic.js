@@ -36,7 +36,7 @@ var pageCrawler = function(page, i) {
       console.log("Crawler #"+i+("\tDownloaded " + file_name + " ("+(responseBuffer.length / 1000)+" kb) in %dms").blue, queueItem.stateData.downloadTime);
       fs.mkdirParent(destination_dir);
       fs.writeFile((destination_dir+"/"+file_name), responseBuffer, function(err) { 
-        console.log((err) ? ('Crawler #'+i(+'\tError saving the MIDI file '+file_name+'\n'+err+'').red): ('Crawler #'+i+('\tSaved file '+file_name+' !').blue));
+        console.log((err) ? ('Crawler #'+i+('\tError saving the MIDI file '+file_name+'\n'+err+'').red): ('Crawler #'+i+('\tSaved file '+file_name+' !').blue));
       });
     }
   });
