@@ -25,7 +25,7 @@ var main = function() {
   for (var i = 0; i < config.pages.length; i++)
     crawler.pageCrawler((config.domain + '/' + config.pages[i]), i);
 
-  console.log('\nPlease wait until all links are crawled...\n'.yellow);
+  console.log('\nNow let\'s wait...\n'.yellow);
 
 };
 

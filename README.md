@@ -15,6 +15,7 @@ You can edit the `config.js` file in order to configure the script:
 
 * `downloadFolder` is the download path folder (default: `./download`)
 * `pages` is an array containing the list of pages that will be crawled (default: all pages)
+* There is a debug mode that displays crawling infos (queued resources, )
 
 How to use
 ----------
