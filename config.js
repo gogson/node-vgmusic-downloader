@@ -30,6 +30,7 @@ var pages = [
   'music/console/nintendo/3ds',
   'music/console/nintendo/wii',
   'music/console/nintendo/wiiu',
+  'music/console/nintendo/switch',
   'music/console/sega/master',
   'music/console/sega/gamegear',
   'music/console/sega/genesis',
