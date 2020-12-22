@@ -53,6 +53,7 @@ var pages = [
   'music/console/snk/neogeo',
   'music/console/snk/neogeopocket',
   'music/console/atari/2600',
+  'music/console/atari/7800',
   'music/console/atari/jaguar',
   'music/console/coleco/colecovision',
   'music/console/mattel/intellivision',
@@ -69,10 +70,13 @@ var pages = [
   'music/computer/apple/appleii',
   'music/computer/apple/macintosh',
   'music/computer/nec/pc98',
+  'music/computer/nec/pc-88',
+  'music/computer/sharp/x68000/',
   'music/computer/sinclair/spectrum',
   'music/other/miscellaneous/arcade',
   'music/other/miscellaneous/medley',
   'music/other/miscellaneous/piano',
+  'music/other/miscellaneous/comedy',
 ];
 
 // Export configuration.
